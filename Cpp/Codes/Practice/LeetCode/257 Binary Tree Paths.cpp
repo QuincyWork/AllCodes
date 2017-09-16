@@ -24,7 +24,7 @@ void dfs(TreeNode* root, string path, vector<string>& result)
 		newPath += "->";
 	}
 
-	sprintf(szBuffer,"%d",root->val);
+	sprintf_s(szBuffer,20,"%d",root->val);
 	newPath += szBuffer;
 
 	if (root->left || root->right)

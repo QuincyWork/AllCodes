@@ -44,7 +44,7 @@ string getHint(string secret, string guess)
 	}
 
 	char szResult[10] = {0};
-	sprintf(szResult,"%dA%dB",nBulls,nCows);
+	sprintf_s(szResult,10,"%dA%dB",nBulls,nCows);
 
 	return szResult;
 }

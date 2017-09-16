@@ -41,7 +41,7 @@ TreeNode* sortedArrayToBST1(vector<int>& nums)
 	return nodes[0];
 }
 
-TreeNode* treeToBST(vector<TreeNode*>& nodes, int l, int r)
+static TreeNode* treeToBST(vector<TreeNode*>& nodes, int l, int r)
 {
 	if (l > r)
 	{

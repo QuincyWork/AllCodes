@@ -37,7 +37,7 @@ private:
 
 	int Resize(int newsize);
 	int Fetch(Node* pParent, list<Node*>& siblings);
-	int Insert(list<Node*>& siblings);
+	int Insert(list<Node*>& siblings) { return 0; };
 
 private:
 

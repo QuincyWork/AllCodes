@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <map>
 #include <strstream>
-#include <Util.h>
+#include <common/Util.h>
 using namespace std;
 
 class NumMatrix1 

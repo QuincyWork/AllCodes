@@ -8,7 +8,7 @@ struct ListNode
 	ListNode* m_pNext;
 };
 
-ListNode* ReverseLinkedList(ListNode* pHead)
+static ListNode* ReverseLinkedList(ListNode* pHead)
 {
 	ListNode* pNext = pHead;	
 	ListNode* pPrev = NULL;

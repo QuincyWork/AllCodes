@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 using namespace std;
 
-bool isMatch(string s, string p, int sbegin, int pbegin)
+static bool isMatch(string s, string p, int sbegin, int pbegin)
 {
 	if (s.length() == sbegin ||
 		p.length() == pbegin)
@@ -39,7 +39,7 @@ bool isMatch(string s, string p, int sbegin, int pbegin)
 	return false;
 }
 
-bool isMatch(string s, string p) 
+static bool isMatch(string s, string p) 
 {	
 	/*vector<string> parttion;
 	string::size_type pos = p.find('*');
