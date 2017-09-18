@@ -105,7 +105,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -317,6 +317,7 @@
     <ClCompile Include="Codes\Practice\LeetCode\53 Maximum Subarray.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\58 Length Of Last Word.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\6 ZigZag Conversion.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCode\649 Dota2 Senate.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\66 Plus One.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\67 AddBinary.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\69 Sqrt.cpp" />

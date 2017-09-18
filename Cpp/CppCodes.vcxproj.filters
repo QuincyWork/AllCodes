@@ -605,5 +605,8 @@
     <ClCompile Include="Codes\Practice\LeetCode\503 Next Greater Element II.cpp">
       <Filter>Practice\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\649 Dota2 Senate.cpp">
+      <Filter>Practice\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

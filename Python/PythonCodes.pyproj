@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.4-32</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -22,6 +22,9 @@
     <Compile Include="Codes\Practice\LeetCode\211 Add and Search Word - Data structure design.py" />
     <Compile Include="Codes\Practice\LeetCode\222 Count Complete Tree Nodes.py" />
     <Compile Include="Codes\Practice\LeetCode\297 Serialize and Deserialize Binary Tree.py" />
+    <Compile Include="Codes\Practice\LeetCode\649 Dota2 Senate.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Codes\" />
@@ -29,8 +32,9 @@
     <Folder Include="Codes\Practice\LeetCode" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|2.7" />
-    <InterpreterReference Include="Global|PythonCore|3.6" />
+    <InterpreterReference Include="Global|PythonCore|2.7-32" />
+    <InterpreterReference Include="Global|PythonCore|3.4-32" />
+    <InterpreterReference Include="Global|PythonCore|3.6-32" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

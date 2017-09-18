@@ -16,8 +16,8 @@ vector<pair<int, int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, in
 	while ( k > 0 )
 	{
 		int min = std::numeric_limits<int>::max();
-		int t = 0;
-		for (int i=0; i<nums1.size(); ++i)
+		size_t t = 0;
+		for (size_t i=0; i<nums1.size(); ++i)
 		{
 			if (index[i] < nums2.size() && 
 				nums1[i] + nums2[index[i]] < min)
