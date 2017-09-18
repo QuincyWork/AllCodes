@@ -326,7 +326,9 @@
     <ClCompile Include="Codes\Practice\LeetCode\83 Remove Duplicates From Sorted List.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\88 Merge Sorted Array.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\89 Gray Code.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\9 Palindrome Number.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCode\9 Palindrome Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCode\93 Restore IP Address.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\94 Binary Tree Inorder Traversal.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\96 Unique Binary Search Trees.cpp" />
