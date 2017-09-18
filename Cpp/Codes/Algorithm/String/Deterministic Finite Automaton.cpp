@@ -39,7 +39,7 @@ void CreateDFATable(vector<vector<int>>& transTbl, const string& pattern)
 //
 //  Convert alpha char to index
 //
-int Convert(char value)
+static int Convert(char value)
 {
 	int result = -1;
 	if (value >= 'a' && value <= 'z')

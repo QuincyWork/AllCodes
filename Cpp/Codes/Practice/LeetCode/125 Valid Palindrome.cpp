@@ -41,7 +41,7 @@ bool isPalindrome(string s)
 	return true;
 }
 
-TEST(Pratices,tIsPalindrome)
+TEST(Pratices,tIsPalindromeString)
 {
 	// A man, a plan, a canal: Panama
 	ASSERT_TRUE(isPalindrome("A man, a plan, a canal: Panama"));

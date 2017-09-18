@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 using namespace std;
 
-int convert(const string& val)
+static int convert(const string& val)
 {	
 	int result = 0;
 	for (int i=0; i<val.length();++i)
@@ -12,7 +12,7 @@ int convert(const string& val)
 	return result;
 }
 
-int maxProduct(vector<string>& words) 
+static int maxProduct(vector<string>& words) 
 {
 	vector<pair<int,int>> wordtbl;
 	for (int i=0; i<words.size();++i)

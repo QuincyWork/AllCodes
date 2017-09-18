@@ -2,7 +2,7 @@
 #include <unordered_map>
 using namespace std;
 
-int singleNumber1(vector<int>& nums)
+static int singleNumber1(vector<int>& nums)
 {
 	int Result = -1;
 	unordered_map<int,int> cache;

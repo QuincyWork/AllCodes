@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 using namespace std;
 
-bool isMatch(string s, string p)
+static bool isMatch(string s, string p)
 {
-
+	return false;
 }

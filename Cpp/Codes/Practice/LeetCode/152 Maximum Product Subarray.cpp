@@ -8,6 +8,8 @@ int maxProduct(vector<int>& nums)
 
 	for (int i=0; i<nums.size(); ++i)
 	{
-		current *= nums[i]
+		current *= nums[i];
 	}
+
+	return result;
 }

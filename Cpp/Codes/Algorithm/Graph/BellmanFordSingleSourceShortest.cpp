@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "Graph.h"
 
-void singleSourceShortest(Graph const& graph, int s, vector<int>& dist, vector<int>& pred)
+static void singleSourceShortest(Graph const& graph, int s, vector<int>& dist, vector<int>& pred)
 {
 	const int n = graph.numVertices();
 	dist.assign(n, numeric_limits<int>::max());

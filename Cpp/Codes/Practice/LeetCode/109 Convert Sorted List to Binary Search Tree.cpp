@@ -17,7 +17,7 @@ struct TreeNode {
 
 };
 
-TreeNode* treeToBST(vector<TreeNode*>& nodes, int l, int r)
+static TreeNode* treeToBST(vector<TreeNode*>& nodes, int l, int r)
 {
 	if (l > r)
 	{
@@ -33,7 +33,7 @@ TreeNode* treeToBST(vector<TreeNode*>& nodes, int l, int r)
 }
 
 
-TreeNode* sortedListToBST(ListNode* head)
+static TreeNode* sortedListToBST(ListNode* head)
 {
 	if (!head)
 	{

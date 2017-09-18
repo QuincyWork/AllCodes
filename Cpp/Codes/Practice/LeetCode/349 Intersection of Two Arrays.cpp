@@ -30,7 +30,7 @@ vector<int> intersection(vector<int>& nums1, vector<int>& nums2)
 	return result;
 }
 
-TEST(LeetCode, tIntersection)
+TEST(LeetCode, tIntersectionTwoArray)
 {
 	// Given nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2].
 	int d1[] = {1,2,2,1};

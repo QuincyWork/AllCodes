@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
 using namespace std;
 
-char data[100] = {0};
+static char verdata[100] = {0};
 bool isBadVersion(int version)
 {
-	return data[version-1];
+	return verdata[version-1];
 }
 
 int find(int l, int r)
@@ -32,6 +32,6 @@ int firstBadVersion(int n)
 
 TEST(Pratices, tFirstBadVersion)
 {
-	memset(data+60,1,40);
+	memset(verdata +60,1,40);
 	int result = firstBadVersion(100);
 }

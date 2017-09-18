@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include <unordered_map>
+#include <Common/Util.h>
 using namespace std;
 
 struct TreeNode {
@@ -39,7 +40,7 @@ int rob(TreeNode* root)
 	return max(robSub(root, true, record),robSub(root, false, record));
 }
 
-TEST(LeetCode, tRob)
+TEST(LeetCode, tRob3)
 {	
 	TreeNode t1[] = {3,2,3,3,1};	
 	t1[0].left = &t1[1];

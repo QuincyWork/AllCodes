@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 using namespace std;
 
-string convert(string s, int numRows)
+static string convert(string s, int numRows)
 {
 	if (s.empty() || !numRows || (numRows==1))
 	{

@@ -1,5 +1,5 @@
 #include <gtest\gtest.h>
-#include <util.h>
+#include <common\util.h>
 #include <queue>
 #include <math.h>
 using namespace std;

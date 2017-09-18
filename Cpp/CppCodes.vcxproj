@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -73,7 +73,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)\Build\$(Configuration)\</OutDir>
-    <IncludePath>..\ThirdLibs\gTest\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\ThirdLibs\gTest\include;.\Codes\Library;$(IncludePath)</IncludePath>
     <LibraryPath>..\ThirdLibs\gTest\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -161,7 +161,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Codes\Algorithm\Array\MaxSumOfSequence.cpp" />
+    <ClCompile Include="Codes\Algorithm\Array\MaxSumOfSequence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Codes\Algorithm\Game\ShuffleCard.cpp" />
     <ClCompile Include="Codes\Algorithm\Geometry\ConvexHull.cpp" />
     <ClCompile Include="Codes\Algorithm\Graph\AllPairsShortestPath.cpp" />

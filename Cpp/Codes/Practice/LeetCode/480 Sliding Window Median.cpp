@@ -1,5 +1,5 @@
 #include <gtest\gtest.h>
-#include <Util.h>
+#include <common\util.h>
 #include <set>
 using namespace std;
 

@@ -35,7 +35,7 @@ void GeneralTransformTable(int*& ppTable, const char* szPattern)
 //
 //  Convert alpha char to index
 //
-int Convert(char value)
+static int Convert(char value)
 {
 	int result = -1;
 	if (value >= 'a' && value <= 'z')

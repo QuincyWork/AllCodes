@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include <map>
+#include <Common/util.h>
 using namespace std;
 
 int robSub(vector<int>& nums, bool bCanRob, int index, bool bEndCanRob, map<int,int>& record)
@@ -23,7 +24,7 @@ int robSub(vector<int>& nums, bool bCanRob, int index, bool bEndCanRob, map<int,
 	return val;
 }
 
-int rob1(vector<int>& nums)
+static int rob1(vector<int>& nums)
 {
 	map<int,int> record;
 	int v1 = robSub(nums, true, 0, false, record);
@@ -32,7 +33,7 @@ int rob1(vector<int>& nums)
 	return max(v1, v2);
 }
 
-int rob(vector<int>& nums, int left, int right)
+static int rob(vector<int>& nums, int left, int right)
 {
 	if (left >= right)
 	{
@@ -51,7 +52,7 @@ int rob(vector<int>& nums, int left, int right)
 	return dp.back();
 }
 
-int rob(vector<int>& nums)
+static int rob(vector<int>& nums)
 {
 	if (nums.size() <= 1)
 	{
@@ -61,7 +62,7 @@ int rob(vector<int>& nums)
 	return max(rob(nums, 0, nums.size()-1), rob(nums, 1, nums.size()));
 }
 
-TEST(LeetCode, tRob)
+TEST(LeetCode, tRob2)
 {
 	int d1[] = {2,3,4,5,1,3};
 	vector<int> v1(d1, d1+_countof(d1));

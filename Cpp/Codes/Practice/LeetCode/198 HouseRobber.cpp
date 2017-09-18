@@ -1,7 +1,7 @@
 #include <gtest\gtest.h>
 using namespace std;
 
-int rob1(vector<int>& nums)
+static int rob1(vector<int>& nums)
 {
 	const int length = nums.size();
 	int max = 0;

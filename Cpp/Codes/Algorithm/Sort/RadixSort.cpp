@@ -60,7 +60,7 @@ static bool Validate(T* data, int len)
 }
 
 //ฒโสิด๚ย๋
-TEST(Algo, tCountSort)
+TEST(Algo, tRxSort)
 {	
 	int d1[] = {2,82,73,11,12,85,6,4};
 	RxSort(d1, 8, 2, 10);

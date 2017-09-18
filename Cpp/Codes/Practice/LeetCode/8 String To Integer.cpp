@@ -75,7 +75,11 @@ TEST(Pratices, tMyAtoi)
 	ASSERT_EQ(myAtoi("-123123abdf"),-123123);
 	ASSERT_EQ(myAtoi("2147483648"),2147483647);
 	ASSERT_EQ(myAtoi("2147483647"),2147483647);
+<<<<<<< .mine
 	//ASSERT_EQ(myAtoi("-214748364"),-2147483648);
+=======
+	//ASSERT_EQ(myAtoi("-2147483649"),-2147483648);
+>>>>>>> .theirs
 	ASSERT_EQ(myAtoi("9223372036854775809"),2147483647);
 	
 }

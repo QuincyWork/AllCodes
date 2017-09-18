@@ -69,7 +69,7 @@ bool isPalindrome(int x)
 	return true;
 }
 
-TEST(Pratices, tIsPalindrome)
+TEST(Pratices, tIsPalindromeNum)
 {
 	// 123 false
 	// 121 true

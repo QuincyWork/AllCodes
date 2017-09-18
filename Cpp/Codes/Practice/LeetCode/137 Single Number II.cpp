@@ -5,7 +5,7 @@ using namespace std;
 // X1£¬X2£¬X3£¬X4£¬X5£¬X1£¬X2£¬X4£¬X5£¬X1£¬X2£¬X4£¬X5
 
 
-int singleNumber(vector<int>& nums) 
+static int singleNumber(vector<int>& nums) 
 {
 	int bitCount;
 	int result = 0;

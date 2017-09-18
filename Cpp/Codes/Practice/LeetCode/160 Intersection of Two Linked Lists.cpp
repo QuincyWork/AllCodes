@@ -9,7 +9,7 @@ struct ListNode {
      ListNode(int x) : val(x), next(NULL) {}
 };
 
-ListNode* ReverseLinkedList(ListNode* head)
+static ListNode* ReverseLinkedList(ListNode* head)
 {
 	ListNode* next = head;
 	ListNode* prev = NULL;

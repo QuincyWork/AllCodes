@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 using namespace std;
 
-vector<int> singleNumber(vector<int>& nums)
+static vector<int> singleNumber(vector<int>& nums)
 {
 	int xorVal = 0;
 	for (int i=0; i<nums.size(); ++i)
@@ -26,7 +26,7 @@ vector<int> singleNumber(vector<int>& nums)
 	return result;
 }
 
-TEST(LeetCode, tSingleNumber2)
+TEST(LeetCode, tSingleNumber3)
 {
 	int d1[] = {1,2};
 	vector<int> v1(d1,d1+_countof(d1));
