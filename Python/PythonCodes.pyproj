@@ -22,6 +22,9 @@
     <Compile Include="Codes\Practice\LeetCode\211 Add and Search Word - Data structure design.py" />
     <Compile Include="Codes\Practice\LeetCode\222 Count Complete Tree Nodes.py" />
     <Compile Include="Codes\Practice\LeetCode\297 Serialize and Deserialize Binary Tree.py" />
+    <Compile Include="Codes\Practice\LeetCode\495 Teemo Attacking.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCode\649 Dota2 Senate.py">
       <SubType>Code</SubType>
     </Compile>
