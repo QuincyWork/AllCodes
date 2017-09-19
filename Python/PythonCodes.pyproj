@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e61faa10-42df-47c3-993f-d00bbe0e66d4}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>Codes\Practice\LeetCode\495 Teemo Attacking.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>

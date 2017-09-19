@@ -20,9 +20,15 @@ class Solution(object):
         return sumDuration
 
 
-if __name__ == '__main__':
-    s = Solution()
-    print(s.findPoisonedDuration([1,4],2))
-    print(s.findPoisonedDuration([1,2],2))
-    print(s.findPoisonedDuration([1,4,5,6,10,14,15,34],2))
+# Test Case
+import unittest
+class SolutionTest(unittest.TestCase):
+    def test_all(self):
+        s = Solution()
+        self.assertEqual(s.findPoisonedDuration([1,4],2),4)
+        self.assertEqual(s.findPoisonedDuration([1,2],2),3)
+        self.assertEqual(s.findPoisonedDuration([1,4,5,6,10,14,15,34],2),13)
+
+if __name__ == '__main__':    
+    unittest.main()
     
