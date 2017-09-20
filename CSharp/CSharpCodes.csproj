@@ -32,11 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework">
-      <HintPath>..\ThirdLibs\MSTest\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.8.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdLibs\NUnit\net-4.5\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions">
-      <HintPath>..\ThirdLibs\MSTest\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    <Reference Include="nunit.framework.tests, Version=3.8.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdLibs\NUnit\net-4.5\nunit.framework.tests.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Codes\Practice\LeetCode\495 Teemo Attacking.cs" />
+    <Compile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,10 +29,10 @@ namespace CSharpCodes.Codes.Practice.LeetCode
         }
     }
 
-    [TestClass()]
+    [TestFixture]
     public class TeemoAttackingTests
     {
-        [TestMethod()]
+        [Test]
         public void FindPoisonedDuration()
         {
             var s = new Solution();

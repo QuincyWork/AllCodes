@@ -10,7 +10,7 @@ namespace CSharpCodes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("使用VS的测试管理器运行测试用例");
+            Console.WriteLine("安装NUnit Test Adapter,使用测试管理器运行测试用例");
             Console.Read();
         }
     }
