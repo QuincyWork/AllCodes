@@ -25,6 +25,9 @@
     <Compile Include="Codes\Practice\LeetCode\495 Teemo Attacking.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCode\649 Dota2 Senate.py">
       <SubType>Code</SubType>
     </Compile>

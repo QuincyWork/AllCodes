@@ -608,5 +608,8 @@
     <ClCompile Include="Codes\Practice\LeetCode\649 Dota2 Senate.cpp">
       <Filter>Practice\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cpp">
+      <Filter>Practice\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

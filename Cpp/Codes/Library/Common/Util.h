@@ -29,19 +29,6 @@ public:
 
 #define V Vector()
 
-// »ù´¡º¯Êý
-//template <typename T>
-//T max(T p1, T p2)
-//{
-//	return (p1 > p2 ? p1 : p2);
-//}
-//
-//template <typename T>
-//T min(T p1, T p2)
-//{
-//	return (p1 < p2 ? p1 : p2);
-//}
-
 // VS2017 does not contain greater<T>,define
 template <class T> struct greater {
 	bool operator() (const T& x, const T& y) const { return x>y; }

@@ -317,6 +317,7 @@
     <ClCompile Include="Codes\Practice\LeetCode\50 Pow.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\503 Next Greater Element II.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\53 Maximum Subarray.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\58 Length Of Last Word.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\6 ZigZag Conversion.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\649 Dota2 Senate.cpp" />
