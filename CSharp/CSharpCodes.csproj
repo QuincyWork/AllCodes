@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Codes\Practice\LeetCode\495 Teemo Attacking.cs" />
     <Compile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cs" />
+    <Compile Include="Codes\Practice\LeetCode\76 Minimum Window Substring.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
