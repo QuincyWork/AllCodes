@@ -70,6 +70,9 @@
     <Filter Include="Practice\Other">
       <UniqueIdentifier>{10ae5fa2-5b2d-41b2-ba18-0ad8da0559f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Practice\LeetCodeCN">
+      <UniqueIdentifier>{da94e42f-8409-4d61-bbe0-9a349802dbf3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -610,6 +613,12 @@
     </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cpp">
       <Filter>Practice\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\1 Two Sum.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="771 Jewels And Stones.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

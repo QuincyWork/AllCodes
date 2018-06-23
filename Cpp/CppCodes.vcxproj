@@ -23,7 +23,7 @@
     <ProjectGuid>{CEC7CC64-0F2A-4F5E-B1F8-197D6555842B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CppCodes</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -108,9 +108,9 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -163,6 +163,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="771 Jewels And Stones.cpp" />
     <ClCompile Include="Codes\Algorithm\Array\MaxSumOfSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -202,142 +203,409 @@
     <ClCompile Include="Codes\Algorithm\String\StringHash.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\DoubleArrayTrie.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\TrieTree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\10 Regular Expression Matching.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\100 Same Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\101 Symmetric Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\102 Binary Tree Level Order Traversal.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\104 Maximum Depth Of Binary Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\107 Binary Tree Level Order Traversal II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\108 Convert Sorted Array to Binary Search Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\109 Convert Sorted List to Binary Search Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\110 Balanced Binary Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\111 Minimum Depth Of Binary Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\112 Path Sum.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\118 Pascal%27s Triangle.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\12 IntegerToRoman.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\121 Best Time To Buy And Sell Stock.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\125 Valid Palindrome.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\13 Roman To Integer.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\136 Single Number.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\137 Single Number II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\14 Longest Common Prefix.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\141 Linked List Cycle.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\144 Binary Tree Preorder Traversal.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\152 Maximum Product Subarray.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\153 Find Minimum in Rotated Sorted Array.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\155 Min Stack.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\160 Intersection of Two Linked Lists.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\165 Compare Version Numbers.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\168 Excel Sheet Column Title.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\169 Majority Element.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\17 Letter Combinations of a Phone Number.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\171 Excel Sheet Column Number.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\172 Factorial Trailing Zeroes.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\189 Rotate Array.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\19 Remove Nth Node From End of List.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\190 Reverse Bits.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\191 Number of 1 Bits.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\198 HouseRobber.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\20 Valid Parentheses.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\202 HappyNumber.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\203 Remove Linked List Elements.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\204 Count Primes.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\205 Isomorphic Strings.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\206 Reverse Linked List.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\21 Merge Two Sorted Lists.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\211 Add and Search Word - Data structure design.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\213 House Robber II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\216 Combination Sum III.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\217 Contains Duplicate.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\219 Contains Duplicate II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\22 Generate Parentheses.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\222 Count Complete Tree Nodes.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\223 Rectangle Area.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\225 Implement Stack using Queues.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\226 Invert Binary Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\23 Merge k Sorted Lists.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\230 Kth Smallest Element in a BST.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\231 Power of Two.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\232 Implement Queue using Stacks.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\235 Lowest Common Ancestor of a Binary Search Tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\237 Delete Node in a Linked List.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\238 Product of Array Except Self.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\24 Swap Nodes in Pairs.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\242 Valid Anagram.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\257 Binary Tree Paths.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\258 Add Digits.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\26 Remove Duplicates From Sorted Array.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\260 Single Number III.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\263 Ugly Number.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\264 Ugly Number II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\268 Missing Number.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\27 Remove Element.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\278 First Bad Version.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\28 Implement strStr.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\283 Move Zeroes.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\290 Word Pattern.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\292 Nim Game.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\295 Find Median from Data Stream.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\299 Bulls and Cows.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\30 Substring with Concatenation of All Words.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\303 Range Sum Query - Immutable.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\304 Range Sum Query 2D - Immutable.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\318 Maximum Product of Word Lengths.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\319 Bulb Switcher.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\32 Longest Valid Parentheses.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\326 Power of Three.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\328 Odd Even Linked List.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\337 House Robber III.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\338 Counting Bits.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\342 Power of Four.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\343 Integer Break.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\344 Reverse String.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\345 Reverse Vowels of a String.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\347 Top K Frequent Elements.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\349 Intersection of Two Arrays.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\35 Search Insert Position.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\350 Intersection of Two Arrays II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\357 Count Numbers with Unique Digits.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\36 Valid Sudoku.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\371 Sum of Two Integers.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\373 Find K Pairs with Smallest Sums.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\374 Guess Number Higher or Lower.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\377 Combination Sum IV.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\378 Kth Smallest Element in a Sorted Matrix.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\39 Combination Sum.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\4 Median of Two Sorted Arrays.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\41 First Missing Positive.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\413 Arithmetic Slices.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\42 Trapping Rain Water.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\438 Find All Anagrams in a String.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\44 Wildcard Matching.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\480 Sliding Window Median.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\49 Group Anagrams.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\496 Next Greater Element I.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\50 Pow.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\503 Next Greater Element II.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\53 Maximum Subarray.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\58 Length Of Last Word.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\6 ZigZag Conversion.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\649 Dota2 Senate.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\66 Plus One.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\67 AddBinary.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\69 Sqrt.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\7 Reverse Integer.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\70 Climbing Stairs.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\77 Combinations.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\8 String To Integer.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\8 String To Number.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\83 Remove Duplicates From Sorted List.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\88 Merge Sorted Array.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\89 Gray Code.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\1 Two Sum.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCode\10 Regular Expression Matching.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\100 Same Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\101 Symmetric Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\102 Binary Tree Level Order Traversal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\104 Maximum Depth Of Binary Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\107 Binary Tree Level Order Traversal II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\108 Convert Sorted Array to Binary Search Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\109 Convert Sorted List to Binary Search Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\110 Balanced Binary Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\111 Minimum Depth Of Binary Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\112 Path Sum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\118 Pascal%27s Triangle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\12 IntegerToRoman.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\121 Best Time To Buy And Sell Stock.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\125 Valid Palindrome.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\13 Roman To Integer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\136 Single Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\137 Single Number II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\14 Longest Common Prefix.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\141 Linked List Cycle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\144 Binary Tree Preorder Traversal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\152 Maximum Product Subarray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\153 Find Minimum in Rotated Sorted Array.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\155 Min Stack.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\160 Intersection of Two Linked Lists.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\165 Compare Version Numbers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\168 Excel Sheet Column Title.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\169 Majority Element.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\17 Letter Combinations of a Phone Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\171 Excel Sheet Column Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\172 Factorial Trailing Zeroes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\189 Rotate Array.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\19 Remove Nth Node From End of List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\190 Reverse Bits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\191 Number of 1 Bits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\198 HouseRobber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\20 Valid Parentheses.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\202 HappyNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\203 Remove Linked List Elements.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\204 Count Primes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\205 Isomorphic Strings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\206 Reverse Linked List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\21 Merge Two Sorted Lists.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\211 Add and Search Word - Data structure design.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\213 House Robber II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\216 Combination Sum III.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\217 Contains Duplicate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\219 Contains Duplicate II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\22 Generate Parentheses.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\222 Count Complete Tree Nodes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\223 Rectangle Area.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\225 Implement Stack using Queues.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\226 Invert Binary Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\23 Merge k Sorted Lists.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\230 Kth Smallest Element in a BST.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\231 Power of Two.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\232 Implement Queue using Stacks.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\235 Lowest Common Ancestor of a Binary Search Tree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\237 Delete Node in a Linked List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\238 Product of Array Except Self.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\24 Swap Nodes in Pairs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\242 Valid Anagram.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\257 Binary Tree Paths.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\258 Add Digits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\26 Remove Duplicates From Sorted Array.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\260 Single Number III.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\263 Ugly Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\264 Ugly Number II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\268 Missing Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\27 Remove Element.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\278 First Bad Version.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\28 Implement strStr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\283 Move Zeroes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\290 Word Pattern.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\292 Nim Game.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\295 Find Median from Data Stream.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\299 Bulls and Cows.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\30 Substring with Concatenation of All Words.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\303 Range Sum Query - Immutable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\304 Range Sum Query 2D - Immutable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\318 Maximum Product of Word Lengths.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\319 Bulb Switcher.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\32 Longest Valid Parentheses.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\326 Power of Three.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\328 Odd Even Linked List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\337 House Robber III.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\338 Counting Bits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\342 Power of Four.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\343 Integer Break.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\344 Reverse String.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\345 Reverse Vowels of a String.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\347 Top K Frequent Elements.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\349 Intersection of Two Arrays.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\35 Search Insert Position.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\350 Intersection of Two Arrays II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\357 Count Numbers with Unique Digits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\36 Valid Sudoku.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\371 Sum of Two Integers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\373 Find K Pairs with Smallest Sums.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\374 Guess Number Higher or Lower.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\377 Combination Sum IV.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\378 Kth Smallest Element in a Sorted Matrix.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\39 Combination Sum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\4 Median of Two Sorted Arrays.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\41 First Missing Positive.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\413 Arithmetic Slices.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\42 Trapping Rain Water.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\438 Find All Anagrams in a String.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\44 Wildcard Matching.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\480 Sliding Window Median.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\49 Group Anagrams.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\496 Next Greater Element I.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\50 Pow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\503 Next Greater Element II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\53 Maximum Subarray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\539 Minimum Time Difference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\58 Length Of Last Word.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\6 ZigZag Conversion.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\649 Dota2 Senate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\66 Plus One.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\67 AddBinary.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\69 Sqrt.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\7 Reverse Integer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\70 Climbing Stairs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\77 Combinations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\8 String To Integer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\8 String To Number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\83 Remove Duplicates From Sorted List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\88 Merge Sorted Array.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\89 Gray Code.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCode\9 Palindrome Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCode\93 Restore IP Address.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\94 Binary Tree Inorder Traversal.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCode\96 Unique Binary Search Trees.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCode\93 Restore IP Address.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\94 Binary Tree Inorder Traversal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCode\96 Unique Binary Search Trees.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Codes\Practice\Other\NumberConversion.cpp" />
     <ClCompile Include="CppCodes.cpp" />
     <ClCompile Include="stdafx.cpp">
