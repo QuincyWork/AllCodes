@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e61faa10-42df-47c3-993f-d00bbe0e66d4}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Codes\Practice\LeetCodeCN\852 Peak index in a mountain array.py</StartupFile>
+    <StartupFile>Codes\Practice\LeetCodeCN\832 Flipping an image.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,7 +19,28 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Codes\Practice\LeetCodeCN\461 Hamming distance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\476 Number complement.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\500 Keyboard row.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\617 Merge two binary trees.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\657 Judge route circle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\728 Self dividing numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\771 Jewels And Stones.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\804 Unique morse code words.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.py">
@@ -49,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Codes\" />
+    <Folder Include="Codes\Practice\LeetCodeCN\" />
     <Folder Include="E:\04.Source\06.GIT\Develop\AllCodes\Python\Codes\Practice\LeetCodeCN\" />
     <Folder Include="Codes\Tools\" />
     <Folder Include="Codes\Practice\" />

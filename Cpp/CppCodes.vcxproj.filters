@@ -620,5 +620,8 @@
     <ClCompile Include="771 Jewels And Stones.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

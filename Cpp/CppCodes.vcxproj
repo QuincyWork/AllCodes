@@ -204,6 +204,7 @@
     <ClCompile Include="Codes\Algorithm\Tree\DoubleArrayTrie.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\TrieTree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1 Two Sum.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\10 Regular Expression Matching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
