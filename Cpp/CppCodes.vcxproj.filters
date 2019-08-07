@@ -73,6 +73,12 @@
     <Filter Include="Practice\LeetCodeCN">
       <UniqueIdentifier>{da94e42f-8409-4d61-bbe0-9a349802dbf3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Practice\LeetCodeCN\Interview">
+      <UniqueIdentifier>{6871587f-42f2-458d-bacb-2dbed9f33ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview">
+      <UniqueIdentifier>{2962f971-3301-40fd-ad42-81001fe38564}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -622,6 +628,129 @@
     </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\557 Reverse words in a string iii a string iii.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="821 Shortest distance to a character.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\463 Island perimeter.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\637 Average of levels in binary tree.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\852 Peak index in a mountain array.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\853 Car fleet.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\855 Exam room.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\859 buddy strings.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\856 Score of parentheses.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\858 Mirror reflection.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\857 Minimum cost to hire k workers.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\15 3sum.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\38 Count And Say.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\443  String Compression.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\445 Add Two Numbers ii.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\86 Partition List.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\88 Merge Sorted Array.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\89 Gray Code.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\1 BagOfTokensScore.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\2 RepeatedStringMatch.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\3 Search.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\3_2 isValid.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\3_3 findSubsequences.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\4_1 numUniqueEmails.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\4_2 lengthLongestPath.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\5_3 maxProfit.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\6_1 matrixReshape.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\6_2 numRescueBoats.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\6_3 findBottomLeftValue.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\7_1 toLowerCase.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\7_2 MyCalendarTwo.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\8_1 sortedArrayToBST.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\8_2 largest1BorderedSquare.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\8_3 FreqStack.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\9_1 addBinary.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\9_2 smallestSubsequence.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\9_3 triangleNumber.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\10_1 findLUSlength.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\10_3 longestDupSubstring.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\11_1 reverseBits.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\11_2 buildTree.cpp">
+      <Filter>Practice\Interview</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

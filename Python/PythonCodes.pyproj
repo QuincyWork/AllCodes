@@ -19,7 +19,13 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Codes\Practice\LeetCodeCN\412 Fizz buzz.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\461 Hamming distance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\463 Island perimeter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\476 Number complement.py">
@@ -28,10 +34,31 @@
     <Compile Include="Codes\Practice\LeetCodeCN\500 Keyboard row.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\557 Reverse words in a string iii a string iii.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\561 Array partition i.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\566 Reshape the matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\575 Distribute candies.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\617 Merge two binary trees.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\657 Judge route circle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\669 Trim a binary search tree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\682 Baseball game.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\693 Binary number with alternating bits.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\728 Self dividing numbers.py">
@@ -41,6 +68,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\804 Unique morse code words.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\806 Number of lines to write string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\811 Subdomain visit count.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\821 Shortest distance to a character.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.py">
@@ -70,8 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Codes\" />
-    <Folder Include="Codes\Practice\LeetCodeCN\" />
-    <Folder Include="E:\04.Source\06.GIT\Develop\AllCodes\Python\Codes\Practice\LeetCodeCN\" />
+    <Folder Include="Codes\Practice\LeetCodeCN\" />    
     <Folder Include="Codes\Tools\" />
     <Folder Include="Codes\Practice\" />
     <Folder Include="Codes\Practice\LeetCode" />
