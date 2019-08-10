@@ -623,5 +623,11 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
