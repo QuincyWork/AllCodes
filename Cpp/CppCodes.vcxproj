@@ -23,7 +23,7 @@
     <ProjectGuid>{CEC7CC64-0F2A-4F5E-B1F8-197D6555842B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CppCodes</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -164,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="771 Jewels And Stones.cpp" />
+    <ClCompile Include="821 Shortest distance to a character.cpp" />
     <ClCompile Include="Codes\Algorithm\Array\MaxSumOfSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -203,10 +204,50 @@
     <ClCompile Include="Codes\Algorithm\String\StringHash.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\DoubleArrayTrie.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\TrieTree.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\1 BagOfTokensScore.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\10_1 findLUSlength.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\10_3 longestDupSubstring.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\11_1 reverseBits.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\11_2 buildTree.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\2 RepeatedStringMatch.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\3 Search.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\4_1 numUniqueEmails.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\3_2 isValid.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\3_3 findSubsequences.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\4_2 lengthLongestPath.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\5_3 maxProfit.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\6_1 matrixReshape.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\6_2 numRescueBoats.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\6_3 findBottomLeftValue.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\7_1 toLowerCase.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\7_2 MyCalendarTwo.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\8_1 sortedArrayToBST.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\8_2 largest1BorderedSquare.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\8_3 FreqStack.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\9_1 addBinary.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\9_2 smallestSubsequence.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\9_3 triangleNumber.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1 Two Sum.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
+	<ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\15 3sum.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\38 Count And Say.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\443  String Compression.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\445 Add Two Numbers ii.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\463 Island perimeter.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\557 Reverse words in a string iii a string iii.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\637 Average of levels in binary tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp" />
+<ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\852 Peak index in a mountain array.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\853 Car fleet.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\855 Exam room.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\856 Score of parentheses.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\857 Minimum cost to hire k workers.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\858 Mirror reflection.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\859 buddy strings.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\86 Partition List.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\88 Merge Sorted Array.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\89 Gray Code.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\10 Regular Expression Matching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

@@ -6,9 +6,7 @@ class Solution(object):
         :rtype: int
         """
         self.quickSort(nums,0,len(nums)-1)
-        for v in nums:
-
-
+        
     
     def quickSort(self,nums,left,right):
         """
