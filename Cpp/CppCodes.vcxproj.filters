@@ -73,9 +73,6 @@
     <Filter Include="Practice\LeetCodeCN">
       <UniqueIdentifier>{da94e42f-8409-4d61-bbe0-9a349802dbf3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Practice\LeetCodeCN\Interview">
-      <UniqueIdentifier>{6871587f-42f2-458d-bacb-2dbed9f33ef6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Practice\Interview">
       <UniqueIdentifier>{2962f971-3301-40fd-ad42-81001fe38564}</UniqueIdentifier>
     </Filter>
@@ -751,6 +748,15 @@
     </ClCompile>
     <ClCompile Include="Codes\Practice\Interview\11_2 buildTree.cpp">
       <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
