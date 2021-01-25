@@ -263,7 +263,8 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\0102 CheckPermutation.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\0103 replaceSpaces.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1 Two Sum.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
+	<ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
+<ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\15 3sum.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\38 Count And Say.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\443  String Compression.cpp" />
@@ -273,6 +274,7 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\557 Reverse words in a string iii a string iii.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\637 Average of levels in binary tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp" />
+<ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\852 Peak index in a mountain array.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\853 Car fleet.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\855 Exam room.cpp" />

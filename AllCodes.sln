@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonCodes", "Python\PythonCodes.pyproj", "{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCodes", "Cpp\CppCodes.vcxproj", "{CEC7CC64-0F2A-4F5E-B1F8-197D6555842B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCodes", "CSharp\CSharpCodes.csproj", "{6665523E-8662-4CF3-A79F-1D9ABD57603A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonCodes", "Python\PythonCodes.pyproj", "{82786752-237F-41D9-BA0B-27A06AD1EC17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}.Release|x64.ActiveCfg = Release|Any CPU
-		{E61FAA10-42DF-47C3-993F-D00BBE0E66D4}.Release|x86.ActiveCfg = Release|Any CPU
 		{CEC7CC64-0F2A-4F5E-B1F8-197D6555842B}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{CEC7CC64-0F2A-4F5E-B1F8-197D6555842B}.Debug|x64.ActiveCfg = Debug|x64
 		{CEC7CC64-0F2A-4F5E-B1F8-197D6555842B}.Debug|x64.Build.0 = Debug|x64
@@ -47,6 +41,12 @@ Global
 		{6665523E-8662-4CF3-A79F-1D9ABD57603A}.Release|x64.Build.0 = Release|Any CPU
 		{6665523E-8662-4CF3-A79F-1D9ABD57603A}.Release|x86.ActiveCfg = Release|Any CPU
 		{6665523E-8662-4CF3-A79F-1D9ABD57603A}.Release|x86.Build.0 = Release|Any CPU
+		{82786752-237F-41D9-BA0B-27A06AD1EC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82786752-237F-41D9-BA0B-27A06AD1EC17}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82786752-237F-41D9-BA0B-27A06AD1EC17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82786752-237F-41D9-BA0B-27A06AD1EC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82786752-237F-41D9-BA0B-27A06AD1EC17}.Release|x64.ActiveCfg = Release|Any CPU
+		{82786752-237F-41D9-BA0B-27A06AD1EC17}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
