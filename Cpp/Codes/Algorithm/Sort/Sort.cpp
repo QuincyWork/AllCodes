@@ -182,7 +182,6 @@ namespace MergeSort2
 
 namespace ShellSort
 {
-
 	void Sort(int A[], int N)
 	{
 		for (int d=N/2; d >= 1; d = d/2)
@@ -200,7 +199,7 @@ namespace ShellSort
 				A[j+d] = value;
 			}
 		}
-	}	
+	}
 }
 
 // Quick Sort
