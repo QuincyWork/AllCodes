@@ -159,10 +159,12 @@
   <ItemGroup>
     <ClInclude Include="Codes\Algorithm\Graph\Graph.h" />
     <ClInclude Include="Codes\Library\Common\Util.h" />
+    <ClInclude Include="Codes\Library\Data\ArrayData.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="24_1 subsets.cpp" />
     <ClCompile Include="771 Jewels And Stones.cpp" />
     <ClCompile Include="821 Shortest distance to a character.cpp" />
     <ClCompile Include="Codes\Algorithm\Array\MaxSumOfSequence.cpp">
@@ -200,16 +202,47 @@
     <ClCompile Include="Codes\Algorithm\String\LengthOfLongestSubstring.cpp" />
     <ClCompile Include="Codes\Algorithm\String\LongestCommonSequence.cpp" />
     <ClCompile Include="Codes\Algorithm\String\LongestCommonSubString.cpp" />
+    <ClCompile Include="Codes\Algorithm\String\longestPalindrome.cpp" />
     <ClCompile Include="Codes\Algorithm\String\StringEditDistance.cpp" />
     <ClCompile Include="Codes\Algorithm\String\StringHash.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\DoubleArrayTrie.cpp" />
     <ClCompile Include="Codes\Algorithm\Tree\TrieTree.cpp" />
+    <ClCompile Include="Codes\Practice\Book1\0101 isUnique.cpp" />
+    <ClCompile Include="Codes\Practice\Book1\0104 canPermutePalindrome.cpp" />
+    <ClCompile Include="Codes\Practice\Book1\0105 oneEditAway.cpp" />
     <ClCompile Include="Codes\Practice\Interview\1 BagOfTokensScore.cpp" />
     <ClCompile Include="Codes\Practice\Interview\10_1 findLUSlength.cpp" />
     <ClCompile Include="Codes\Practice\Interview\10_3 longestDupSubstring.cpp" />
     <ClCompile Include="Codes\Practice\Interview\11_1 reverseBits.cpp" />
     <ClCompile Include="Codes\Practice\Interview\11_2 buildTree.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\12_1 lemonadeChange.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\12_2 minHeightShelves.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\13_1 minDepth.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\13_2 RecentCounter.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\13_3 PeekingIterator.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\14_1 numberOfBoomerangs.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\15_1 minIncrementForUnique.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\15_3 accountsMerge.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\16_1 getHint.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\17_1 nthPersonGetsNthSeat.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\17_2 knightDialer.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\17_3 threeSumClosest.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\18_1 MedianFinder.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\18_2 reverseKGroup.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\19_1 isBoomerang.cpp" />
     <ClCompile Include="Codes\Practice\Interview\2 RepeatedStringMatch.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\20_1 hasAlternatingBits.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\20_1 isPossible.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\20_2 isToeplitzMatrix.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\21_1 sortColors.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\21_2 bulbSwitch.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\21_3 findNumOfValidWords.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\22_1 findLHS.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\22_2 intervalIntersection.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\22_3 longestCommonSubsequence.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\23_1 findMaximumXOR.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\25_1 maxEvents.cpp" />
+    <ClCompile Include="Codes\Practice\Interview\25_2 shuffle.cpp" />
     <ClCompile Include="Codes\Practice\Interview\3 Search.cpp" />
     <ClCompile Include="Codes\Practice\Interview\4_1 numUniqueEmails.cpp" />
     <ClCompile Include="Codes\Practice\Interview\3_2 isValid.cpp" />
@@ -227,18 +260,22 @@
     <ClCompile Include="Codes\Practice\Interview\9_1 addBinary.cpp" />
     <ClCompile Include="Codes\Practice\Interview\9_2 smallestSubsequence.cpp" />
     <ClCompile Include="Codes\Practice\Interview\9_3 triangleNumber.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\0102 CheckPermutation.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\0103 replaceSpaces.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1 Two Sum.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
+<ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\15 3sum.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\38 Count And Say.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\443  String Compression.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\445 Add Two Numbers ii.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\463 Island perimeter.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\5 longest palindromic substring.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\557 Reverse words in a string iii a string iii.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\637 Average of levels in binary tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\832 Flipping an image.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp" />
+<ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\852 Peak index in a mountain array.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\853 Car fleet.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\855 Exam room.cpp" />
@@ -651,6 +688,7 @@
     <ClCompile Include="Codes\Practice\LeetCode\96 Unique Binary Search Trees.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Codes\Practice\Other\ArraySort01.cpp" />
     <ClCompile Include="Codes\Practice\Other\NumberConversion.cpp" />
     <ClCompile Include="CppCodes.cpp" />
     <ClCompile Include="stdafx.cpp">

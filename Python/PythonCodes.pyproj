@@ -5,13 +5,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e61faa10-42df-47c3-993f-d00bbe0e66d4}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Codes\Practice\LeetCodeCN\832 Flipping an image.py</StartupFile>
+    <StartupFile>Codes\Practice\LeetCodeCN\116 Populating-next-right-pointers-in-each-node.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>Global|PythonCore|3.6-32</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|pytorch</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -19,6 +19,12 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Codes\Algorithm\Backtrace\permute.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\116 Populating-next-right-pointers-in-each-node.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\412 Fizz buzz.py">
       <SubType>Code</SubType>
     </Compile>
@@ -29,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\476 Number complement.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\494 Target sum.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\500 Keyboard row.py">
@@ -106,15 +115,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Codes\" />
-    <Folder Include="Codes\Practice\LeetCodeCN\" />    
+    <Folder Include="Codes\Algorithm\" />
+    <Folder Include="Codes\Algorithm\Backtrace\" />
+    <Folder Include="Codes\Practice\LeetCodeCN\" />
     <Folder Include="Codes\Tools\" />
     <Folder Include="Codes\Practice\" />
     <Folder Include="Codes\Practice\LeetCode" />
     <Folder Include="Codes\Tools\HttpParser\" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|2.7-32" />
-    <InterpreterReference Include="Global|PythonCore|3.6-32" />
+    <InterpreterReference Include="CondaEnv|CondaEnv|pytorch" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

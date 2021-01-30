@@ -76,6 +76,30 @@
     <Filter Include="Practice\Interview">
       <UniqueIdentifier>{2962f971-3301-40fd-ad42-81001fe38564}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library\Data">
+      <UniqueIdentifier>{57b700d2-bb69-46cf-bc05-aefbd5ea9a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview\20">
+      <UniqueIdentifier>{abeda88c-e1b5-421e-8682-a957539b39d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Book1">
+      <UniqueIdentifier>{27547b9e-4686-4962-b136-4211c0a55424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview\21">
+      <UniqueIdentifier>{79dc7c97-74b5-4bca-a50f-eaa273557d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview\22">
+      <UniqueIdentifier>{859b363f-e6fc-4e0e-87a2-f36d0ea07a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview\23">
+      <UniqueIdentifier>{13170d28-b296-4597-ac48-3b87a01014c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview\24">
+      <UniqueIdentifier>{f3af9cb5-7d9c-4657-99cd-c3cf7f094f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Interview\25">
+      <UniqueIdentifier>{bbd95167-a26c-4828-a395-1dabd74864dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -92,6 +116,9 @@
     </ClInclude>
     <ClInclude Include="Codes\Library\Common\Util.h">
       <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Library\Data\ArrayData.h">
+      <Filter>Library\Data</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -749,13 +776,115 @@
     <ClCompile Include="Codes\Practice\Interview\11_2 buildTree.cpp">
       <Filter>Practice\Interview</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Codes\Practice\Interview\12_1 lemonadeChange.cpp">
+      <Filter>Practice\Interview</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\840 Magic squares in grid.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Codes\Practice\Interview\12_2 minHeightShelves.cpp">
+      <Filter>Practice\Interview</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp">
+    <ClCompile Include="Codes\Practice\Interview\13_1 minDepth.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\13_2 RecentCounter.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\13_3 PeekingIterator.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\14_1 numberOfBoomerangs.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\15_1 minIncrementForUnique.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\15_3 accountsMerge.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\16_1 getHint.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\5 longest palindromic substring.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Algorithm\String\longestPalindrome.cpp">
+      <Filter>Algorithm\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Other\ArraySort01.cpp">
+      <Filter>Practice\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\17_1 nthPersonGetsNthSeat.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\17_2 knightDialer.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\17_3 threeSumClosest.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\18_1 MedianFinder.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\18_2 reverseKGroup.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\19_1 isBoomerang.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\20_1 isPossible.cpp">
+      <Filter>Practice\Interview</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\20_1 hasAlternatingBits.cpp">
+      <Filter>Practice\Interview\20</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\20_2 isToeplitzMatrix.cpp">
+      <Filter>Practice\Interview\20</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Book1\0101 isUnique.cpp">
+      <Filter>Practice\Book1</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\0102 CheckPermutation.cpp">
+      <Filter>Practice\Book1</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\0103 replaceSpaces.cpp">
+      <Filter>Practice\Book1</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Book1\0104 canPermutePalindrome.cpp">
+      <Filter>Practice\Book1</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Book1\0105 oneEditAway.cpp">
+      <Filter>Practice\Book1</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\21_1 sortColors.cpp">
+      <Filter>Practice\Interview\21</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\21_2 bulbSwitch.cpp">
+      <Filter>Practice\Interview\21</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\21_3 findNumOfValidWords.cpp">
+      <Filter>Practice\Interview\21</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\22_1 findLHS.cpp">
+      <Filter>Practice\Interview\22</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\22_2 intervalIntersection.cpp">
+      <Filter>Practice\Interview\22</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\22_3 longestCommonSubsequence.cpp">
+      <Filter>Practice\Interview\22</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\23_1 findMaximumXOR.cpp">
+      <Filter>Practice\Interview\23</Filter>
+    </ClCompile>
+    <ClCompile Include="24_1 subsets.cpp">
+      <Filter>Practice\Interview\24</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\25_1 maxEvents.cpp">
+      <Filter>Practice\Interview\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\Interview\25_2 shuffle.cpp">
+      <Filter>Practice\Interview\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
   </ItemGroup>
