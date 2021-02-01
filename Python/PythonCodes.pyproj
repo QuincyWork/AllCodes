@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e61faa10-42df-47c3-993f-d00bbe0e66d4}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Codes\Practice\LeetCodeCN\116 Populating-next-right-pointers-in-each-node.py</StartupFile>
+    <StartupFile>Codes\Practice\LeetCodeCN\654 maximum-binary-tree.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,6 +20,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Codes\Algorithm\Backtrace\permute.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\105 construct-binary-tree-from-preorder-and-inorder-traversal.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\116 Populating-next-right-pointers-in-each-node.py">
@@ -56,6 +59,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\617 Merge two binary trees.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\654 maximum-binary-tree.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\657 Judge route circle.py">
