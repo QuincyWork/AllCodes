@@ -270,6 +270,9 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\105 construct-binary-tree-from-preorder-and-inorder-traversal.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\106 construct-binary-tree-from-inorder-and-postorder-traversal.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\230 kth-smallest-element-in-a-bst.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
+<ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\654 maximum-binary-tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
