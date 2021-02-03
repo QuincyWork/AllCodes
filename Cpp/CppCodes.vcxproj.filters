@@ -120,6 +120,9 @@
     <ClInclude Include="Codes\Library\Data\ArrayData.h">
       <Filter>Library\Data</Filter>
     </ClInclude>
+    <ClInclude Include="Codes\Library\Data\TreeData.h">
+      <Filter>Library\Data</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -903,6 +906,12 @@
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\230 kth-smallest-element-in-a-bst.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\538 convert-bst-to-greater-tree.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
   </ItemGroup>
