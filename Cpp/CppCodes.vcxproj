@@ -272,11 +272,9 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\230 kth-smallest-element-in-a-bst.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
-<ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\654 maximum-binary-tree.cpp" />
-    <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\654 maximum-binary-tree.cpp" />        
     <ClCompile Include="Codes\Practice\LeetCodeCN\15 3sum.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\38 Count And Say.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\443  String Compression.cpp" />
