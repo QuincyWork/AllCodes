@@ -100,6 +100,9 @@
     <Filter Include="Practice\Interview\25">
       <UniqueIdentifier>{bbd95167-a26c-4828-a395-1dabd74864dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Practice\LeetCodeCN\BST">
+      <UniqueIdentifier>{62affbbc-317a-4d19-938d-a040a6e4b952}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -122,6 +125,9 @@
     </ClInclude>
     <ClInclude Include="Codes\Library\Data\TreeData.h">
       <Filter>Library\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Library\Common\Tree.h">
+      <Filter>Library\Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -887,9 +893,6 @@
     <ClCompile Include="Codes\Practice\Interview\25_2 shuffle.cpp">
       <Filter>Practice\Interview\25</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp">
-      <Filter>Practice\LeetCodeCN</Filter>
-    </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -899,20 +902,32 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\654 maximum-binary-tree.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\105 construct-binary-tree-from-preorder-and-inorder-traversal.cpp">
-      <Filter>Practice\LeetCodeCN</Filter>
-    </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\106 construct-binary-tree-from-inorder-and-postorder-traversal.cpp">
-      <Filter>Practice\LeetCodeCN</Filter>
-    </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\230 kth-smallest-element-in-a-bst.cpp">
-      <Filter>Practice\LeetCodeCN</Filter>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp">
+      <Filter>Practice\Other</Filter>
     </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\538 convert-bst-to-greater-tree.cpp">
-      <Filter>Practice\LeetCodeCN</Filter>
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\105 construct-binary-tree-from-preorder-and-inorder-traversal.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\106 construct-binary-tree-from-inorder-and-postorder-traversal.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\230 kth-smallest-element-in-a-bst.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\450 delete-node-in-a-bst.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\701 insert-into-a-binary-search-tree.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
