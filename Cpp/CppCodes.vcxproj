@@ -160,6 +160,7 @@
     <ClInclude Include="Codes\Algorithm\Graph\Graph.h" />
     <ClInclude Include="Codes\Library\Common\Tree.h" />
     <ClInclude Include="Codes\Library\Common\Util.h" />
+    <ClInclude Include="Codes\Library\Common\Vector.h" />
     <ClInclude Include="Codes\Library\Data\ArrayData.h" />
     <ClInclude Include="Codes\Library\Data\TreeData.h" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\450 delete-node-in-a-bst.cpp" />

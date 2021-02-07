@@ -1,4 +1,5 @@
 ﻿#include <gtest/gtest.h>
+#include <Common/Tree.h>
 using namespace std;
 
 namespace LC450
@@ -46,14 +47,14 @@ namespace LC450
 
  
     //Definition for a binary tree node.
-    struct TreeNode {
+    /*struct TreeNode {
        int val;
        TreeNode *left;
        TreeNode *right;
        TreeNode() : val(0), left(nullptr), right(nullptr) {}
        TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
        TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-    };
+    };*/
  
     class Solution {
     public:
@@ -99,13 +100,16 @@ namespace LC450
     TEST(LeetCodeCN, deleteNode)
     {
         Solution s;
-        TreeNode data[] = { 5,3,6,2,4,7 };
+		auto data = Tree::toTree("5,3,6,2,4,null,7");
+
+        /*TreeNode data[] = { 5,3,6,2,4,7 };
         data[0].left = &data[1];
         data[0].right = &data[2];
         data[1].left = &data[3];
         data[1].right = &data[4];
-        data[2].right = &data[5];
-        auto result = s.deleteNode(data, 3);
+        data[2].right = &data[5];*/
+        auto result = s.deleteNode(*data.get(), 3);
 
+		auto test = Tree::toString(result);
     }
 }

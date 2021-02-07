@@ -1,38 +1,20 @@
 #pragma once
-#include <vector>
 #include <string>
-#include <stdarg.h>
+// ¸¨Öúº¯Êý
 
-// ³õÊ¼»¯
-class Vector
+template <typename C, typename T>
+static std::size_t strsplit(const std::basic_string<T>& str, C& cont,
+	T delim)
 {
-public:
-
-	template<typename T>
-	std::vector<T> operator() (int s,T p1, ...) const
+	std::size_t current, previous = 0, count = 0;
+	current = str.find(delim);
+	while (current != std::string::npos)
 	{
-		std::vector<T> v;		
-		va_list st;
-		va_start(st,p1);
-		v.push_back(p1);
-
-		while (s-- > 1)
-		{	
-			v.push_back(va_arg(st, T));
-		}
-		
-		va_end(st);
-
-		return v;
+		cont.push_back(str.substr(previous, current - previous));
+		count++;
+		previous = current + 1;
+		current = str.find(delim, previous);
 	}
-};
-
-#define V Vector()
-
-// VS2017 does not contain greater<T>,define
-template <class T> struct greater {
-	bool operator() (const T& x, const T& y) const { return x>y; }
-	typedef T first_argument_type;
-	typedef T second_argument_type;
-	typedef bool result_type;
-};
+	cont.push_back(str.substr(previous, current - previous));
+	return count;
+}

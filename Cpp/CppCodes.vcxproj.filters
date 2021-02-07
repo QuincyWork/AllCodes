@@ -117,9 +117,6 @@
     <ClInclude Include="Codes\Algorithm\Graph\Graph.h">
       <Filter>Algorithm\Graph</Filter>
     </ClInclude>
-    <ClInclude Include="Codes\Library\Common\Util.h">
-      <Filter>Library\Common</Filter>
-    </ClInclude>
     <ClInclude Include="Codes\Library\Data\ArrayData.h">
       <Filter>Library\Data</Filter>
     </ClInclude>
@@ -127,6 +124,12 @@
       <Filter>Library\Data</Filter>
     </ClInclude>
     <ClInclude Include="Codes\Library\Common\Tree.h">
+      <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Library\Common\Vector.h">
+      <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Library\Common\Util.h">
       <Filter>Library\Common</Filter>
     </ClInclude>
   </ItemGroup>
