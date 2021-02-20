@@ -69,6 +69,10 @@ namespace LC230
 					root = root->left;
 				}
 
+				if (stack.empty()) {
+					break;
+				}
+
 				root = stack.top();
 				stack.pop();
 				if (--k == 0) {

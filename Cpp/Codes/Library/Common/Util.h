@@ -15,6 +15,6 @@ static std::size_t strsplit(const std::basic_string<T>& str, C& cont,
 		previous = current + 1;
 		current = str.find(delim, previous);
 	}
-	cont.push_back(str.substr(previous, current - previous));
+	cont.push_back(str.substr(previous));
 	return count;
 }

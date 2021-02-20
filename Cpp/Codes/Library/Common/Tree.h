@@ -45,38 +45,59 @@ public:
 		std::shared_ptr<Tree> tree(new Tree());
 		auto& nodes = tree->nodes;
 
+		if (input.empty()) {
+			return tree;
+		}
+
+		// 分割字符串
+		std::vector<std::string> values;
 		std::size_t current, prev = 0;
-		auto source = input + ',';
-		current = source.find(',');
-		while (current != std::string::npos) {
+		auto source = input;
+		while (true) {
 			
-			TreeNode* node = nullptr;
-			auto value = source.substr(prev, current - prev);
-			if (value != "null") {
-				node = new TreeNode(std::atol(value.c_str()));
+			current = source.find(',',prev);
+			if (current != std::string::npos) {
+				values.push_back(source.substr(prev, current - prev));
+				prev = current + 1;
 			}
-			nodes.push_back(node);
-
-			// 更新父节点子树
-			if (nodes.size() > 1) {
-				int parent = (nodes.size() - 2) / 2;
-				int delta = (nodes.size() - 2) % 2;
-				if (delta == 0) {
-					nodes[parent]->left = node;
-				}
-				else {
-					nodes[parent]->right = node;
-				}
+			else {
+				values.push_back(source.substr(prev));
+				break;
 			}
+		}
+	
+		// 构造二叉树
+		std::list<TreeNode*> list;
+		auto root = new TreeNode(std::atol(values[0].c_str()));
+		list.push_back(root);
+		nodes.push_back(root); // 缓存以便释放
 
-			prev = current + 1;
-			current = source.find(',', prev);
+		for (size_t i = 1; i < values.size();) {
+
+			auto parent = list.front();
+			list.pop_front();
+			
+			// 对应左子节点
+			if (values[i] != "null") {
+				parent->left = new TreeNode(std::atol(values[i].c_str()));
+				list.push_back(parent->left);
+				nodes.push_back(parent->left); // 缓存以便释放
+			}
+			++i;
+
+			// 对应右子节点
+			if (i < values.size() && values[i] != "null") {
+				parent->right = new TreeNode(std::atol(values[i].c_str()));
+				list.push_back(parent->right);
+				nodes.push_back(parent->right); // 缓存以便释放
+			}
+			++i;
 		}
 
 		return tree;
 	}
 
-	// 从Tree装字符串
+	// 从Tree转字符串
 	static std::string toString(TreeNode* root) {
 		
 		if (!root) {
@@ -92,13 +113,22 @@ public:
 			list.pop_front();
 			if (top != nullptr) {
 				result += std::to_string(top->val) + ",";
-				if (top->left || top->right) {
-					list.push_back(top->left);
-					list.push_back(top->right);
-				}
+				list.push_back(top->left);
+				list.push_back(top->right);
 			}
 			else {
-				result += "null,";
+				// 处理连续多个null
+				std::string temp = "null,";
+				while (!list.empty() && !list.front()) {
+
+					list.pop_front();
+					temp += "null,";
+				}
+
+				// 末尾全是null的丢弃
+				if (!list.empty()) {
+					result += temp;
+				}
 			}
 		}
 		result.pop_back();

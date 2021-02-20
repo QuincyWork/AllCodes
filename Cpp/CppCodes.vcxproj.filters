@@ -905,9 +905,6 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\654 maximum-binary-tree.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp">
-      <Filter>Practice\LeetCodeCN</Filter>
-    </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp">
       <Filter>Practice\Other</Filter>
     </ClCompile>
@@ -931,6 +928,27 @@
     </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\701 insert-into-a-binary-search-tree.cpp">
       <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\652 find-duplicate-subtrees.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\700 search-in-a-binary-search-tree.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\98 validate-binary-search-tree.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\297 serialize-and-deserialize-binary-tree.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\341 flatten-nested-list-iterator.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\236 lowest-common-ancestor-of-a-binary-tree.cpp">
+      <Filter>Practice\LeetCodeCN\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\697 degree-of-an-array.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

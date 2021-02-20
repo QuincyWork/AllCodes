@@ -163,6 +163,9 @@
     <ClInclude Include="Codes\Library\Common\Vector.h" />
     <ClInclude Include="Codes\Library\Data\ArrayData.h" />
     <ClInclude Include="Codes\Library\Data\TreeData.h" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\236 lowest-common-ancestor-of-a-binary-tree.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\297 serialize-and-deserialize-binary-tree.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\341 flatten-nested-list-iterator.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\450 delete-node-in-a-bst.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\538 convert-bst-to-greater-tree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -274,6 +277,8 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\106 construct-binary-tree-from-inorder-and-postorder-traversal.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\230 kth-smallest-element-in-a-bst.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\1108 defangIPaddr.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\697 degree-of-an-array.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\700 search-in-a-binary-search-tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\701 insert-into-a-binary-search-tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\709  To lower case.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\116 populating-next-right-pointers-in-each-node.cpp" />
@@ -299,6 +304,7 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\86 Partition List.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\88 Merge Sorted Array.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\89 Gray Code.cpp" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\98 validate-binary-search-tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCode\10 Regular Expression Matching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
