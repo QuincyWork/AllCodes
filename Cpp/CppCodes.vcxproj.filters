@@ -950,5 +950,8 @@
     <ClCompile Include="Codes\Practice\LeetCodeCN\697 degree-of-an-array.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
     </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\766 toeplitz-matrix.cpp">
+      <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

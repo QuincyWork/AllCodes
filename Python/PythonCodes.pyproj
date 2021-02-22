@@ -79,6 +79,9 @@
     <Compile Include="Codes\Practice\LeetCodeCN\728 Self dividing numbers.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\766 toeplitz-matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\771 Jewels And Stones.py">
       <SubType>Code</SubType>
     </Compile>
