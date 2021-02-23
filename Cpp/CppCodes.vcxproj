@@ -163,6 +163,7 @@
     <ClInclude Include="Codes\Library\Common\Vector.h" />
     <ClInclude Include="Codes\Library\Data\ArrayData.h" />
     <ClInclude Include="Codes\Library\Data\TreeData.h" />
+    <ClCompile Include="Codes\Practice\LeetCodeCN\200 number-of-islands.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\236 lowest-common-ancestor-of-a-binary-tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\297 serialize-and-deserialize-binary-tree.cpp" />
     <ClCompile Include="Codes\Practice\LeetCodeCN\341 flatten-nested-list-iterator.cpp" />

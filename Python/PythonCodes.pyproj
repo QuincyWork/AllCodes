@@ -25,6 +25,9 @@
     <Compile Include="Codes\Practice\LeetCodeCN\105 construct-binary-tree-from-preorder-and-inorder-traversal.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Codes\Practice\LeetCodeCN\1052 grumpy-bookstore-owner.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Codes\Practice\LeetCodeCN\116 Populating-next-right-pointers-in-each-node.py">
       <SubType>Code</SubType>
     </Compile>

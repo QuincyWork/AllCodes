@@ -103,6 +103,9 @@
     <Filter Include="Practice\LeetCodeCN\BST">
       <UniqueIdentifier>{62affbbc-317a-4d19-938d-a040a6e4b952}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Practice\LeetCodeCN\Union Find">
+      <UniqueIdentifier>{73ed0de7-96bc-4226-8193-eb6a314be059}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -952,6 +955,9 @@
     </ClCompile>
     <ClCompile Include="Codes\Practice\LeetCodeCN\766 toeplitz-matrix.cpp">
       <Filter>Practice\LeetCodeCN</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Practice\LeetCodeCN\200 number-of-islands.cpp">
+      <Filter>Practice\LeetCodeCN\Union Find</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
